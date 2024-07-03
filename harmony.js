@@ -51,7 +51,7 @@ const defaultConfigvless = {
   v: "2",
   ps: "",
   port: "443",
-  id: "1235b6fb-7f15-4361-8da3-d1a079bdf484",
+  id: "eb96992f-c7f3-4448-b02a-561dfd6c8171",
   aid: "0",
   net: "ws",
   type: "none",
@@ -819,10 +819,10 @@ for (let i = 0; i < 1; i++) {
       security: config.tls,
       encryption: config.type,
       alpn: 'http/1.1',// preferred alpn type
-      host: 'SOMEONE-who-doesnt-CARE.pages.DEV',// replace your hostname -1
+      host: 'konimajapu.konima94id.workers.dev',// replace your hostname -1
       fp: randomfp,
       type: config.net,
-      sni: 'SOMEONE-who-doesnt-CARE.pages.DEV',// replace your hostname -2
+      sni: 'konimajapu.konima94id.workers.dev',// replace your hostname -2
     });
     const vlessUrl = `vless://${config.id}@${config.add}:${config.port}?${queryParams.toString()}#${config.ps}`;
     configsList.push(vlessUrl);
@@ -856,10 +856,10 @@ for (let i = 0; i < 1; i++) {
       security: config.tls,
       encryption: config.type,
       alpn: 'http/1.1',// preferred alpn type
-      host: 'SOMEONE-who-doesnt-CARE.pages.DEV',// replace your hostname -3
+      host: 'konimajapu.konima94id.workers.dev',// replace your hostname -3
       fp: randomfp,
       type: config.net,
-      sni: 'SOMEONE-who-doesnt-CARE.pages.DEV',// replace your hostname -4
+      sni: 'konimajapu.konima94id.workers.dev',// replace your hostname -4
     });
     const vlessUrl = `vless://${config.id}@${config.add}:${config.port}?${queryParams.toString()}#${config.ps}`;
   if (!uniqueIPsRE1.has(ip)) {configsList.push(vlessUrl);
@@ -877,10 +877,10 @@ for (let i = 0; i < 1; i++) {
       security: config.tls,
       encryption: config.type,
       alpn: 'http/1.1',// preferred alpn type
-      host: 'SOMEONE-who-doesnt-CARE.pages.DEV',// replace your hostname -5
+      host: 'konimajapu.konima94id.workers.dev',// replace your hostname -5
       fp: randomfp,
       type: config.net,
-      sni: 'SOMEONE-who-doesnt-CARE.pages.DEV',// replace your hostname -6
+      sni: 'konimajapu.konima94id.workers.dev',// replace your hostname -6
     });
     const vlessUrl = `vless://${config.id}@${config.add}:${config.port}?${queryParams.toString()}#${config.ps}`;
   if (!uniqueIPsRE2.has(ip)) {configsList.push(vlessUrl);
